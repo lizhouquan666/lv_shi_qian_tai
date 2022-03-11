@@ -1,0 +1,6 @@
+/*设置内盒背景图片居中*/
+.top-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.index-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 5px solid red;*/
+}
+.top-img{
+    width: 2000px;
+}
+.all-team{
+    width: 2000px;
+}
+.foot{
+    width: 2000px;
+}

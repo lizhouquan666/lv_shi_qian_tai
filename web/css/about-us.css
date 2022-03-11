@@ -1,0 +1,71 @@
+/*---------------------------------------关于我们-------------------------------------------------*/
+.about-us{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*外盒*/
+.about-us>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*标题盒子*/
+.about-us>div:nth-child(1)>div:nth-child(1){
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*关于我们*/
+.about-us>div:nth-child(1)>div:nth-child(1)>div:nth-child(1){
+    font-size: 40px;
+    line-height: 42px;
+    word-wrap: break-word;
+    font-family: 微软雅黑, Arial, serif;
+    color: #5a5a5a;
+}
+/*致力于为客户提供全球商务法律服务，为客户创造价的全球化法律服务机构*/
+.about-us>div:nth-child(1)>div:nth-child(1)>div:nth-child(2){
+    margin: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 微软雅黑, Arial, serif;
+    color: #5a5a5a;
+}
+/*----*/
+.about-us>div:nth-child(1)>div:nth-child(1)>div:nth-child(3){
+    margin: 20px;
+    border-top: 5px solid rgb(170, 137, 97);
+    width: 100px;
+}
+/*图文盒子*/
+.about-us>div:nth-child(1)>div:nth-child(2){
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*文章盒子*/
+.about-us>div:nth-child(1)>div:nth-child(2)>div:nth-child(2){
+    width: 600px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*文章格式*/
+.about-us>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(1){
+    text-indent:2em;
+}
+.about-us>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
+    text-indent:2em;
+}
+.about-us>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(3){
+    text-indent:2em;
+}
+
+
+
