@@ -121,6 +121,8 @@ public class ProductDaoImpl implements ProductDao {
                 model.setUpdateTime(rs.getString("update_time"));
                 model.setEnable(rs.getInt("enable"));
                 list.add(model);
+
+
             }
         } catch (SQLException e) {
             e.printStackTrace();
