@@ -1,5 +1,5 @@
 let page;
-let limit;
+let limit=10;
 let service_id=1;
 let data;
 //myAjax("/back/productId/count", data拿不到值
@@ -17,7 +17,7 @@ layui.use(['laypage', 'layer','jquery','table'], function () {
         , jump: function (obj) {
             console.log(obj);
             page = obj.curr;
-            limit = obj.limit;
+            limit = 20;
             console.log(limit);
             // id = sessionStorage.getItem("service_id");
             findTypeId(sessionStorage.getItem("service_id"));

@@ -1,5 +1,5 @@
 let page = 1;
-let limit = 3;
+let limit = 10;
 let data;
 let id = 1;
 layui.use(['laypage', 'layer'], function () {
