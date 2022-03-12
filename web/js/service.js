@@ -19,6 +19,7 @@ layui.use(['laypage', 'layer','jquery','table'], function () {
             page = obj.curr;
             limit = 20;
             console.log(limit);
+
             // id = sessionStorage.getItem("service_id");
             findTypeId(sessionStorage.getItem("service_id"));
         }
