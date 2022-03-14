@@ -31,7 +31,6 @@ layui.use(['laypage', 'layer','jquery','table'], function () {
 });
 // function page(data) {
 //
-
 // }
 //home页面给了菜系id，上面菜系id转换成当前表的菜系id，而如果你要查询商品id则需要拿到当前点击商品的id,通过当前商品在findall内查询
 function findTypeId(service_id) {
