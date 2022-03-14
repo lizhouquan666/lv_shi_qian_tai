@@ -29,6 +29,7 @@ layui.use(['laypage', 'layer','jquery','table'], function () {
         }
     });
 });
+
 // function page(data) {
 //
 // }
