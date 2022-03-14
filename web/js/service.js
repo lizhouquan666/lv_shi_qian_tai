@@ -6,6 +6,7 @@ let data;
 // $(function () {
 // //     // let data = {page: 1, limit: 8, cuisineId: 0};
 //     findTypeId(sessionStorage.getItem("service_id"));
+
 // });
 layui.use(['laypage', 'layer','jquery','table'], function () {
     var laypage = layui.laypage;
