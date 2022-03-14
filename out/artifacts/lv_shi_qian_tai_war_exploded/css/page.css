@@ -1,0 +1,18 @@
+/*----------------page------------*/
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.page > div {
+    display: flex;
+}
+
+.page > div > div {
+    margin: 10px;
+    padding: 5px 15px;
+    border: 1px solid gray;
+}
+.page > div > div:nth-child(3){
+    border: none;
+}

@@ -1,0 +1,215 @@
+/*大盒子*/
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*最上方盒子*/
+.service>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(236, 236, 236);
+    left: -539.4px;
+    width: 2279px;
+}
+/*居中盒子*/
+.service>div:nth-child(1)>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*小盒子-诉讼、仲裁法律服务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(1){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+/*公司法律服务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(2){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+/*金融资本法律服务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(3){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+/*知识产权法律事务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(4){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+
+/*国际法律事务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(5){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+
+/*特色法律服务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(6){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+/*中间图文盒子*/
+.service>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*居中盒子*/
+.service>div:nth-child(2)>div:nth-child(1){
+    width: 2000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /*border: 5px solid red;*/
+}
+/*法律援助*/
+.service>div:nth-child(2)>div:nth-child(1)>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 100px;
+}
+/*国际商事纠纷*/
+.service>div:nth-child(2)>div:nth-child(1)>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 100px;
+}
+/*商标保护*/
+.service>div:nth-child(2)>div:nth-child(1)>div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 100px;
+}
+/*境内外并购重组*/
+.service>div:nth-child(2)>div:nth-child(1)>div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 100px;
+}
+/*借贷纠纷法律服务*/
+.service>div:nth-child(2)>div:nth-child(1)>div:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 100px;
+}
+/*婚姻家事法律服务*/
+.service>div:nth-child(2)>div:nth-child(1)>div:nth-child(6){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 100px;
+}
+/*翻页*/
+.service>div:nth-child(2)>div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/*<*/
+.service>div:nth-child(2)>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid greenyellow;
+}
+/*页码*/
+.service>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+}
+/*页码字体颜色*/
+.service>div:nth-child(2)>div:nth-child(2)>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+/*>*/
+.service>div:nth-child(2)>div:nth-child(2)>div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid greenyellow;
+}
+.service>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

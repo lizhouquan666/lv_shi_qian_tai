@@ -1,0 +1,917 @@
+/*首页css*/
+/*全局设置*/
+*{
+    margin:0;
+}
+/*body*/
+body{
+    display:flex;
+    justify-content:center;
+}
+/*大盒子控制全部小盒子居中，从上到下*/
+.all{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+
+/*----------------------------------------------导航栏---------------------------------------------------------*/
+/*导航栏*/
+.start{
+    background-color:white;
+    height: 90px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*log样式*/
+.log{
+    display:flex;
+    flex-direction: row;
+    color: rgb(170, 137, 97);
+    font-size: 28px;
+}
+/*设置内盒div居中*/
+.start > div:nth-child(1){
+    width: 1200px;
+    height: 57px;
+    /*border: 1px solid rebeccapurple;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*设置logo*/
+.start > div:nth-child(1) >div:nth-child(4){
+    display: flex;
+}
+/*logo字从上到下*/
+.start > div:nth-child(1) >div:nth-child(4)>div:nth-child(2){
+    display: flex;
+    flex-direction:column;
+    padding-left: 15px;
+}
+/*律师事务所，字体样式*/
+.start > div:nth-child(1) >div:nth-child(4)>div:nth-child(2)>div:nth-child(1){
+    color: rgb(170, 137, 97);
+    font-family: 微软雅黑, Arial, serif;
+    font-size: 28px;
+}
+/*LAW FIRM字体样式*/
+.start > div:nth-child(1) >div:nth-child(4)>div:nth-child(2)>div:nth-child(2){
+    color: rgb(204, 204, 204);
+    letter-spacing: 10px;
+}
+
+/*-------------------------------------------轮播页面------------------------------------------------------------*/
+/*轮播页面样式。设置背景图片，设置高度，设置居中*/
+.beijing{
+    background-image:url("../img/i_banner1.jpg");
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*设置字体颜色为白色，div居中，两端对齐*/
+.beijing > div:nth-child(1){
+    color: white;
+    /*border: 1px solid rebeccapurple;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*专注优质法律服务样式*/
+.beijing > div:nth-child(1)>div:nth-child(1){
+    font-size: 60px;
+    letter-spacing: 5px;
+    line-height: 75px;
+    color: rgb(255, 255, 255);
+}
+/*-------------------*/
+.beijing > div:nth-child(1)>div:nth-child(2)>div:nth-child(1){
+    border-top: 1px solid rgb(255,255,255);
+    width: 500px;
+
+}
+/*致力打造一个更具影响力的律师生态圈*/
+.beijing > div:nth-child(1)>div:nth-child(2){
+    font-size: 20px;
+    letter-spacing: 10px;
+    line-height: 42px;
+}
+/*-------------------*/
+.beijing > div:nth-child(1)>div:nth-child(2)>div:nth-child(2){
+    border-top:1px solid rgb(255,255,255);
+    width: 500px;
+
+}
+/*寻求帮助盒子*/
+.beijing > div:nth-child(1)>div:nth-child(3){
+    margin: 10px;
+    width: 139px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 3px 3px 3px 3px;
+    border-width: 1px;
+    border-color: rgba(102,102,102,1);
+    text-align: center;
+    background-color: rgba(208,176,137,1);
+}
+
+
+
+/*-------------------------------------------法律服务------------------------------------------------------------*/
+/*法律服务*/
+/* 外盒*/
+.fu-wu{
+    background: white;
+    /*border: 1px solid rebeccapurple;*/
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*内盒设置居中*/
+.fu-wu>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid #990b00;*/
+
+}
+/*!*外盒2设置居中*!*/
+/*.fu-wu>div:nth-child(2){*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+
+
+/*文字部分盒子居中*/
+.fu-wu>div:nth-child(1)>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 1px solid rebeccapurple;*/
+}
+/*图文部分盒子居中*/
+.fu-wu>div:nth-child(1)>div:nth-child(2){
+    margin: 50px;
+    display: flex;
+    width: 900px;
+    height: 200px;
+    /*border: 1px solid rebeccapurple;*/
+    flex-wrap: wrap;
+    /*align-content: center;*/
+}
+/*设置文字部分样式*/
+/*专业律师服务   就选某某律师事务所*/
+.fu-wu>div:nth-child(1)>div:nth-child(1)>div:nth-child(1){
+    font-size: 40px;
+    line-height: 42px;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    visibility: visible;
+    font-family: 微软雅黑, Arial, serif;
+    color: #5a5a5a;
+}
+
+/*致力于为客户提供全球商务法律服务，为客户创造价的全球化法律服务机构*/
+.fu-wu>div:nth-child(1)>div:nth-child(1)>div:nth-child(2){
+    margin: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    word-wrap: break-word;
+    visibility: visible;
+    font-family: 微软雅黑, Arial, serif;
+    color: #5a5a5a;
+}
+/*----*/
+.fu-wu>div:nth-child(1)>div:nth-child(1)>div:nth-child(3){
+    margin: 10px;
+    border-top: 5px solid rgb(170, 137, 97);
+    width: 100px;
+}
+/*诉讼、仲裁法律服务*/
+.fu-wu>div:nth-child(1)>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+
+}
+/*公司法律服务*/
+.fu-wu>div:nth-child(1)>div:nth-child(2)>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+}
+/*金融资本法律服务*/
+.fu-wu>div:nth-child(1)>div:nth-child(2)>div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+}
+/*知识产权法律事务*/
+.fu-wu>div:nth-child(1)>div:nth-child(2)>div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+}
+/*国际法律事务*/
+.fu-wu>div:nth-child(1)>div:nth-child(2)>div:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+}
+/*特色法律服务*/
+.fu-wu>div:nth-child(1)>div:nth-child(2)>div:nth-child(6){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+}
+/*--------------------------------------实力--------------------------------------------*/
+/*大盒子*/
+.shi-li{
+    background-image:url("../img/youshi_vvgu.jpg") ;
+    height: 300px;
+    border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*内盒居中*/
+.shi-li>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*标题部分*/
+.shi-li>div:nth-child(1)>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*标题样式*/
+.shi-li>div:nth-child(1)>div:nth-child(1)>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    line-height: 140%;
+    font-family: 微软雅黑, Arial, serif;
+    color: white;
+    /*border: 1px solid rebeccapurple;*/
+
+}
+/*短线*/
+.shi-li>div:nth-child(1)>div:nth-child(1)>div:nth-child(2){
+    margin: 10px;
+    border-top: 5px solid rgb(170, 137, 97);
+    width: 100px;
+
+}
+/*内容数据部分*/
+.shi-li>div:nth-child(1)>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*专业律师*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: 100px;
+    height: 80px;
+}
+/*专业律师数字样式*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1){
+    font-family: 微软雅黑, Arial, serif;
+    color: rgb(208, 176, 137);
+    font-size: 60px;
+}
+/*专业律师字体样式*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(2){
+    font-size: 18px;
+    font-family: 微软雅黑, Arial, serif;
+    color: rgb(255, 255, 255);
+}
+/*所获奖项*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: 100px;
+    height: 80px;
+}
+/*所获奖项数字样式*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(1){
+    font-family: 微软雅黑, Arial, serif;
+    color: rgb(208, 176, 137);
+    font-size: 60px;
+}
+/*所获奖项字体样式*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
+    font-size: 18px;
+    font-family: 微软雅黑, Arial, serif;
+    color: rgb(255, 255, 255);
+}
+/*知名客户*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: 100px;
+    height: 80px;
+}
+/*知名客户数字样式*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>div:nth-child(1){
+    font-family: 微软雅黑, Arial, serif;
+    color: rgb(208, 176, 137);
+    font-size: 60px;
+}
+/*知名客户字体样式*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>div:nth-child(2){
+    font-size: 18px;
+    font-family: 微软雅黑, Arial, serif;
+    color: rgb(255, 255, 255);
+}
+/*承接法律案件*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: 120px;
+    height: 80px;
+}
+/*承接法律案件数字样式*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(4)>div:nth-child(1){
+    font-family: 微软雅黑, Arial, serif;
+    color: rgb(208, 176, 137);
+    font-size: 60px;
+}
+/*承接法律案件字体样式*/
+.shi-li>div:nth-child(1)>div:nth-child(2)>div:nth-child(4)>div:nth-child(2){
+    flex-wrap: nowrap;
+    font-size: 18px;
+    font-family: 微软雅黑, Arial, serif;
+    color: rgb(255, 255, 255);
+}
+/*--------------------------------------------------------客户------------------------------------------------*/
+.ke-hu{
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid red;*/
+}
+/*内盒居中*/
+.ke-hu>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*标题盒子*/
+.ke-hu>div:nth-child(1)>div:nth-child(1){
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/*服务过的客户文字样式*/
+.ke-hu>div:nth-child(1)>div:nth-child(1)>div:nth-child(1){
+    font-size: 40px;
+    line-height: 42px;
+    word-wrap: break-word;
+    font-family: 微软雅黑, Arial, serif;
+    color: #5a5a5a;
+
+}
+/*----*/
+.ke-hu>div:nth-child(1)>div:nth-child(1)>div:nth-child(2){
+    margin: 20px;
+    border-top: 5px solid rgb(170, 137, 97);
+    width: 100px;
+}
+/*图片盒子*/
+.ke-hu>div:nth-child(1)>div:nth-child(2){
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+/*客户logo图片*/
+/*K1*/
+.ke-hu>div:nth-child(1)>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+/*K2*/
+.ke-hu>div:nth-child(1)>div:nth-child(2)>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+/*K3*/
+.ke-hu>div:nth-child(1)>div:nth-child(2)>div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+/*K4*/
+.ke-hu>div:nth-child(1)>div:nth-child(2)>div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+/*K5*/
+.ke-hu>div:nth-child(1)>div:nth-child(2)>div:nth-child(5){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+/*K6*/
+.ke-hu>div:nth-child(1)>div:nth-child(2)>div:nth-child(6){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+/*K7*/
+.ke-hu>div:nth-child(1)>div:nth-child(2)>div:nth-child(7){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+/*K8*/
+.ke-hu>div:nth-child(1)>div:nth-child(2)>div:nth-child(8){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+/*K9 */
+.ke-hu>div:nth-child(1)>div:nth-child(2)>div:nth-child(9){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+/*K10*/
+.ke-hu>div:nth-child(1)>div:nth-child(2)>div:nth-child(10){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+/*---------------------------------------------------团队team----------------------------------------------------*/
+/*大盒子*/
+.team{
+    width:2000px;
+    height:1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/youshi_vvgu.jpg");
+}
+/*居中盒子*/
+.team>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/*标题盒子*/
+.team>div:nth-child(1)>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*标题样式*/
+.team>div:nth-child(1)>div:nth-child(1)>div:nth-child(1){
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 微软雅黑, Arial，, serif;
+}
+/*-----*/
+.team>div:nth-child(1)>div:nth-child(1)>div:nth-child(2){
+    margin: 20px;
+    border-top: 5px solid rgb(170, 137, 97);
+    width: 100px;
+}
+/*团队信息大盒*/
+.team>div:nth-child(1)>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*刘晶静信息盒子*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(1){
+    margin: 100px;
+    background: white;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+/*刘晶静头像*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1){
+
+}
+/*刘晶静姓名*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(2){
+    font-family: 微软雅黑, serif;
+    font-size: 20px;
+    color: rgb(178, 144, 10);
+}
+/*刘晶静职位*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(3){
+    font-family: 微软雅黑, serif;
+    line-height: 200%;
+    color: rgb(153, 153, 153);
+}
+/*刘晶静擅长*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(4){
+    margin: 10px;
+    font-family: 微软雅黑, serif;
+    font-size: 14px;
+}
+
+/*周伟强信息盒子*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(2){
+    margin: 100px;
+    background: white;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+/*周伟强头像*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(1){
+
+}
+/*周伟强姓名*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
+    font-family: 微软雅黑, serif;
+    font-size: 20px;
+    color: rgb(178, 144, 10);
+}
+/*周伟强职位*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(3){
+    font-family: 微软雅黑, serif;
+    line-height: 200%;
+    color: rgb(153, 153, 153);
+}
+/*周伟强擅长*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(4){
+    margin: 10px;
+    font-family: 微软雅黑, serif;
+    font-size: 14px;
+}
+/*张晓梅信息盒子*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(3){
+    margin: 100px;
+    background: white;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+/*张晓梅头像*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>div:nth-child(1){
+
+}
+/*张晓梅姓名*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>div:nth-child(2){
+    font-family: 微软雅黑, serif;
+    font-size: 20px;
+    color: rgb(178, 144, 10);
+}
+/*张晓梅职位*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>div:nth-child(3){
+    font-family: 微软雅黑, serif;
+    line-height: 200%;
+    color: rgb(153, 153, 153);
+}
+/*张晓梅擅长*/
+.team>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>div:nth-child(4){
+    margin: 10px;
+    font-family: 微软雅黑, serif;
+    font-size: 14px;
+}
+/*-----------------------------------------------较新资讯---------------------------------------------------------*/
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+/*内盒居中*/
+.news>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*标题盒子*/
+.news>div:nth-child(1)>div:nth-child(1){
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*标题样式*/
+.news>div:nth-child(1)>div:nth-child(1)>div:nth-child(1){
+    font-size: 40px;
+    line-height: 42px;
+    word-wrap: break-word;
+    font-family: 微软雅黑, Arial, serif;
+    color: #5a5a5a;
+
+}
+/*-----*/
+.news>div:nth-child(1)>div:nth-child(1)>div:nth-child(2){
+    margin: 20px;
+    border-top: 5px solid rgb(170, 137, 97);
+    width: 100px;
+}
+/*信息大盒子*/
+.news>div:nth-child(1)>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*第一个信息盒子*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(1){
+    width: 200px;
+    height: 400px;
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*信息标题样式*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(2){
+    white-space:nowrap;
+    display: inline-block;
+    font-family: Microsoft YaHei, serif;
+    font-size: 18px;
+    padding-top: 4px;
+    color: #5a5a5a;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 140%;
+
+}
+/*信息时间样式*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(3){
+    display: block;
+    font-family: Microsoft YaHei, serif;
+    font-size: 11px;
+    padding-top: 7px;
+    color: #929292;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 140%;
+
+}
+/*信息内容样式*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(4){
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 140%;
+    font-family: Microsoft YaHei, serif;
+    font-size: 12px;
+    padding-top: 5px;
+    color: #666666;
+    font-weight: normal;
+    text-decoration: none;
+
+}
+/*第二个信息盒子*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(2){
+    width: 200px;
+    height: 400px;
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*信息标题样式*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
+    display: inline-block;
+    font-family: Microsoft YaHei, serif;
+    font-size: 18px;
+    padding-top: 4px;
+    color: #5a5a5a;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 140%;
+    white-space:nowrap;
+
+}
+/*信息时间样式*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(3){
+    display: block;
+    font-family: Microsoft YaHei, serif;
+    font-size: 11px;
+    padding-top: 7px;
+    color: #929292;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 140%;
+
+}
+/*信息内容样式*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(4){
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 140%;
+    font-family: Microsoft YaHei, serif;
+    font-size: 12px;
+    padding-top: 5px;
+    color: #666666;
+    font-weight: normal;
+    text-decoration: none;
+
+}
+/*第三个信息盒子*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(3){
+    width: 200px;
+    height: 400px;
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*信息标题样式*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>div:nth-child(2){
+    font-family: Microsoft YaHei, serif;
+    font-size: 18px;
+    padding-top: 4px;
+    color: #5a5a5a;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 140%;
+    white-space:nowrap;
+
+}
+/*信息时间样式*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>div:nth-child(3){
+    display: block;
+    font-family: Microsoft YaHei, serif;
+    font-size: 11px;
+    padding-top: 7px;
+    color: #929292;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 140%;
+
+}
+/*信息内容样式*/
+.news>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>div:nth-child(4){
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 140%;
+    font-family: Microsoft YaHei, serif;
+    font-size: 12px;
+    padding-top: 5px;
+    color: #666666;
+    font-weight: normal;
+    text-decoration: none;
+
+}
+/*------------------------------------------底部foot-------------------------------------------------------------*/
+.foot{
+    height: 259px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.foot>div:nth-child(1){
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+/*联系大盒子*/
+.foot>div:nth-child(1)>div:nth-child(1){
+    margin: 100px;
+
+}
+/*联系样式*/
+.foot>div:nth-child(1)>div:nth-child(1)>div:nth-child(1){
+
+
+}
+/*Contact样式*/
+.foot>div:nth-child(1)>div:nth-child(1)>div:nth-child(2){
+    font-family: 微软雅黑, serif;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+
+/*XX律师事务所样式*/
+.foot>div:nth-child(1)>div:nth-child(2)>div:nth-child(1){
+    margin: 20px;
+    font-size: 20px;
+    font-family: 微软雅黑, serif;
+    color: rgb(126, 124, 122);
+
+
+}
+.foot>div:nth-child(1)>div:nth-child(2)>div:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    color: rgb(142, 142, 141);
+    font-family: 微软雅黑, serif;
+    line-height: 290%;
+    font-size: 12px;
+
+
+}
+.foot>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(1){
+    width: 200px;
+    height: 20px;
+
+}
+.foot>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
+    width: 200px;
+    height: 20px;
+
+}
+.foot>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(3){
+    width: 200px;
+    height: 20px;
+
+}
+.foot>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(4){
+    width: 200px;
+    height: 20px;
+
+}
+.foot>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(5){
+    width: 200px;
+    height: 20px;
+
+}
+.foot>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(6){
+    width: 200px;
+    height: 20px;
+
+}

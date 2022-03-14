@@ -1,0 +1,144 @@
+/*大盒子*/
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*最上方盒子*/
+.service>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(236, 236, 236);
+    left: -539.4px;
+    width: 2279px;
+}
+/*居中盒子*/
+.service>div:nth-child(1)>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*小盒子-诉讼、仲裁法律服务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(1){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+/*公司法律服务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(2){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+/*金融资本法律服务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(3){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+/*知识产权法律事务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(4){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+/*国际法律事务特色法律服务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(5){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+/*特色法律服务*/
+.service>div:nth-child(1)>div:nth-child(1)>div:nth-child(6){
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Microsoft YaHei, serif;
+}
+/*商品详细页面样式*/
+.service>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*border: 5px solid red;*/
+}
+/*商品图片标题，价格*/
+.service>div:nth-child(2)>div:nth-child(1){
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    /*border: 5px solid red;*/
+}
+/*商品图片标题，价格内盒子*/
+.service>div:nth-child(2)>div:nth-child(1)>div:nth-child(1){
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    /*border: 5px solid red;*/
+}
+/*控制两个图片和文本div布局*/
+.service>div:nth-child(2)>div:nth-child(1)>div:nth-child(2){
+    margin-bottom: 300px;
+    margin-right: 600px;
+    border-left-width: 0px;
+    border-left-style: solid;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*text-align: center;*/
+    /*border: 5px solid red;*/
+}
+.service>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2){
+    width: 400px;
+    border-bottom: 1px solid #e2e2e2;
+}
