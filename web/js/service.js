@@ -8,7 +8,6 @@ let data;
 //     findTypeId(sessionStorage.getItem("service_id"));
 
 // });
-
 layui.use(['laypage', 'layer','jquery','table'], function () {
     var laypage = layui.laypage;
     laypage.render({
